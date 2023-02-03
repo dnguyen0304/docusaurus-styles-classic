@@ -35,9 +35,9 @@
     --ifm-font-family-base: 'Karla', sans-serif;
 
     /* DOCUPOTAMUS CLASSIC */
-    --docupotamus-color-accent-primary: var(--ifm-color-primary-lightest);
+    --docupotamus-color-accent: var(--ifm-color-primary-lightest);
     --docupotamus-color-accent-alternative: hsl(166, 100%, 70%);  /* currently unused */
-    --docupotamus-color-gray-primary: var(--ifm-color-gray-700);
+    --docupotamus-color-gray: var(--ifm-color-gray-700);
 }
 
 /* TODO(dnguyen0304: Consider a lighter palette in dark mode for better
