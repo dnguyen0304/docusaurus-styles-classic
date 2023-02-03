@@ -34,6 +34,15 @@
     /* TYPOGRAPHY */
     --ifm-font-family-base: 'Karla', sans-serif;
 
+    /* See: https://coolors.co/fee59a-fee086-fed65d-fcc935-fbc00e-fbb80e-f1ae04 */
+    --ifm-color-warning-lightest: hsl(45, 98%, 80%);
+    --ifm-color-warning-lighter: hsl(45, 98%, 76%);
+    --ifm-color-warning-light: hsl(45, 99%, 68%);
+    --ifm-color-warning: hsl(45, 97%, 60%);
+    --ifm-color-warning-dark: hsl(45, 97%, 52%);
+    --ifm-color-warning-darker: hsl(43, 97%, 52%);
+    --ifm-color-warning-darkest: hsl(43, 97%, 48%);
+
     /* DOCUPOTAMUS CLASSIC */
     --docupotamus-color-accent: var(--ifm-color-primary-lightest);
     --docupotamus-color-accent-alternative: hsl(166, 100%, 70%);  /* currently unused */
