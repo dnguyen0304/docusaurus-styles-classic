@@ -35,6 +35,9 @@
     --ifm-color-gray-900: var(--docupotamus-color-gray-900);
     --ifm-color-gray-1000: var(--docupotamus-color-gray-1000);
 
+    /* BASE */
+    --ifm-background-color: var(--ifm-color-white);
+
     --ifm-color-primary: #2e8555;
     --ifm-color-primary-dark: #29784c;
     --ifm-color-primary-darker: #277148;
