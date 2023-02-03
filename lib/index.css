@@ -62,5 +62,5 @@
    readability. */
 html[data-theme='dark'] {
     /* BASE */
-    --ifm-background-color: var(--docupotamus-color-gray-primary);
+    --ifm-background-color: var(--ifm-color-gray-700);
 }
