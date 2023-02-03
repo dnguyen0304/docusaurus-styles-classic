@@ -20,13 +20,17 @@
     --docupotamus-color-gray-1000: var(--docupotamus-color-black);
     --docupotamus-color-gray-primary: var(--docupotamus-color-gray-700);
 
-    --ifm-color-primary: #2e8555;
-    --ifm-color-primary-dark: #29784c;
-    --ifm-color-primary-darker: #277148;
-    --ifm-color-primary-darkest: #205d3b;
-    --ifm-color-primary-light: #33925d;
-    --ifm-color-primary-lighter: #359962;
-    --ifm-color-primary-lightest: #3cad6e;
+    --docupotamus-color-accent-primary: hsl(166, 100%, 76%);
+    --docupotamus-color-accent-alternative: hsl(166, 100%, 70%);
+
+    /* See: https://coolors.co/85ffe2-66ffdb-76f4db-5ee8cd-3be3c1-1fd6b1-2bcaaa-30c3a6 */
+    --ifm-color-primary-lightest: var(--docupotamus-color-accent-primary);
+    --ifm-color-primary-lighter: hsl(168, 85%, 71%);
+    --ifm-color-primary-light: hsl(168, 75%, 64%);
+    --ifm-color-primary: hsl(168, 75%, 56%);
+    --ifm-color-primary-dark: hsl(168, 75%, 48%);
+    --ifm-color-primary-darker: hsl(168, 65%, 48%);
+    --ifm-color-primary-darkest: hsl(168, 60%, 48%);
 
     --ifm-color-white: var(--docupotamus-color-white);
     --ifm-color-black: var(--docupotamus-color-black);
@@ -50,17 +54,9 @@
     --ifm-font-family-base: 'Karla', sans-serif;
 }
 
-/* For better readability, use a lighter palette in dark mode. */
-[data-theme='dark'] {
-    /* COLORS */
-    --ifm-color-primary: #25c2a0;
-    --ifm-color-primary-dark: #21af90;
-    --ifm-color-primary-darker: #1fa588;
-    --ifm-color-primary-darkest: #1a8870;
-    --ifm-color-primary-light: #29d5b0;
-    --ifm-color-primary-lighter: #32d8b4;
-    --ifm-color-primary-lightest: #4fddbf;
-
+/* TODO(dnguyen0304: Consider a lighter palette in dark mode for better
+   readability. */
+html[data-theme='dark'] {
     /* BASE */
     --ifm-background-color: var(--docupotamus-color-gray-primary);
 }
