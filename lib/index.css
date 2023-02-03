@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 
 :root {
-    /* Colors */
+    /* COLORS */
     --docupotamus-color-white: hsl(0, 0%, 98%);  /* equivalent to hsl(210, 17%, 98%) */
     --docupotamus-color-black: hsl(240, 20%, 4%);
 
@@ -58,4 +58,7 @@
     --ifm-color-primary-lighter: #32d8b4;
     --ifm-color-primary-lightest: #4fddbf;
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+    /* BASE */
+    --ifm-background-color: var(--docupotamus-color-gray-primary);
 }
