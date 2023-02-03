@@ -2,22 +2,6 @@
 
 :root {
     /* COLORS */
-    --docupotamus-color-white: hsl(0, 0%, 98%);  /* equivalent to hsl(210, 17%, 98%) */
-    --docupotamus-color-black: hsl(240, 20%, 4%);
-
-    /* See: https://coolors.co/dadbe7-b6b8ce-9195b6-6c719d-52567a-393c56-1a1b27-181925-101118-08080c */
-    --docupotamus-color-gray-0: var(--docupotamus-color-white);
-    --docupotamus-color-gray-100: hsl(235, 21%, 88%);
-    --docupotamus-color-gray-200: hsl(235, 20%, 76%);
-    --docupotamus-color-gray-300: hsl(234, 20%, 64%);
-    --docupotamus-color-gray-400: hsl(234, 20%, 52%);
-    --docupotamus-color-gray-500: hsl(234, 20%, 40%);
-    --docupotamus-color-gray-600: hsl(234, 20%, 28%);
-    --docupotamus-color-gray-700: hsl(235, 20%, 13%);
-    --docupotamus-color-gray-750: hsl(236, 19%, 12%);
-    --docupotamus-color-gray-800: hsl(235, 21%, 12%);
-    --docupotamus-color-gray-900: hsl(233, 20%, 8%);
-    --docupotamus-color-gray-1000: var(--docupotamus-color-black);
     --docupotamus-color-gray-primary: var(--docupotamus-color-gray-700);
 
     --docupotamus-color-accent-primary: hsl(166, 100%, 76%);
@@ -32,20 +16,22 @@
     --ifm-color-primary-darker: hsl(168, 65%, 48%);
     --ifm-color-primary-darkest: hsl(168, 60%, 48%);
 
-    --ifm-color-white: var(--docupotamus-color-white);
-    --ifm-color-black: var(--docupotamus-color-black);
+    --ifm-color-white: hsl(0, 0%, 98%);  /* equivalent to hsl(210, 17%, 98%) */
+    --ifm-color-black: hsl(240, 20%, 4%);
 
-    --ifm-color-gray-0: var(--docupotamus-color-gray-0);
-    --ifm-color-gray-100: var(--docupotamus-color-gray-100);
-    --ifm-color-gray-200: var(--docupotamus-color-gray-200);
-    --ifm-color-gray-300: var(--docupotamus-color-gray-300);
-    --ifm-color-gray-400: var(--docupotamus-color-gray-400);
-    --ifm-color-gray-500: var(--docupotamus-color-gray-500);
-    --ifm-color-gray-600: var(--docupotamus-color-gray-600);
-    --ifm-color-gray-700: var(--docupotamus-color-gray-700);
-    --ifm-color-gray-800: var(--docupotamus-color-gray-800);
-    --ifm-color-gray-900: var(--docupotamus-color-gray-900);
-    --ifm-color-gray-1000: var(--docupotamus-color-gray-1000);
+    /* See: https://coolors.co/dadbe7-b6b8ce-9195b6-6c719d-52567a-393c56-1a1b27-181925-101118-08080c */
+    --ifm-color-gray-0: var(--ifm-color-white);
+    --ifm-color-gray-100: hsl(235, 21%, 88%);
+    --ifm-color-gray-200: hsl(235, 20%, 76%);
+    --ifm-color-gray-300: hsl(234, 20%, 64%);
+    --ifm-color-gray-400: hsl(234, 20%, 52%);
+    --ifm-color-gray-500: hsl(234, 20%, 40%);
+    --ifm-color-gray-600: hsl(234, 20%, 28%);
+    --ifm-color-gray-700: hsl(235, 20%, 13%);
+    --ifm-color-gray-750: hsl(236, 19%, 12%);
+    --ifm-color-gray-800: hsl(235, 21%, 12%);
+    --ifm-color-gray-900: hsl(233, 20%, 8%);
+    --ifm-color-gray-1000: var(--ifm-color-black);
 
     /* BASE */
     --ifm-background-color: var(--ifm-color-white);
