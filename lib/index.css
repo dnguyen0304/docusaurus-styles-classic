@@ -1,6 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 
 :root {
+    /* Colors */
+    --docupotamus-color-white: hsl(0, 0%, 98%);  /* equivalent to hsl(210, 17%, 98%) */
+    --docupotamus-color-black: hsl(240, 20%, 4%);
+
+    /* See: https://coolors.co/dadbe7-b6b8ce-9195b6-6c719d-52567a-393c56-1a1b27-181925-101118-08080c */
+    --docupotamus-color-gray-0: var(--docupotamus-color-white);
+    --docupotamus-color-gray-100: hsl(235, 21%, 88%);
+    --docupotamus-color-gray-200: hsl(235, 20%, 76%);
+    --docupotamus-color-gray-300: hsl(234, 20%, 64%);
+    --docupotamus-color-gray-400: hsl(234, 20%, 52%);
+    --docupotamus-color-gray-500: hsl(234, 20%, 40%);
+    --docupotamus-color-gray-600: hsl(234, 20%, 28%);
+    --docupotamus-color-gray-700: hsl(235, 20%, 13%);
+    --docupotamus-color-gray-750: hsl(236, 19%, 12%);
+    --docupotamus-color-gray-800: hsl(235, 21%, 12%);
+    --docupotamus-color-gray-900: hsl(233, 20%, 8%);
+    --docupotamus-color-gray-1000: var(--docupotamus-color-black);
+    --docupotamus-color-gray-primary: var(--docupotamus-color-gray-700);
+
     --ifm-color-primary: #2e8555;
     --ifm-color-primary-dark: #29784c;
     --ifm-color-primary-darker: #277148;
