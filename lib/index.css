@@ -2,8 +2,6 @@
 
 :root {
     /* COLORS */
-    --docupotamus-color-gray-primary: var(--docupotamus-color-gray-700);
-
     --docupotamus-color-accent-primary: hsl(166, 100%, 76%);
     --docupotamus-color-accent-alternative: hsl(166, 100%, 70%);
 
@@ -38,6 +36,9 @@
 
     /* TYPOGRAPHY */
     --ifm-font-family-base: 'Karla', sans-serif;
+
+    /* DOCUPOTAMUS CLASSIC */
+    --docupotamus-color-gray-primary: var(--ifm-color-gray-700);
 }
 
 /* TODO(dnguyen0304: Consider a lighter palette in dark mode for better
