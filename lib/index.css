@@ -2,11 +2,8 @@
 
 :root {
     /* COLORS */
-    --docupotamus-color-accent-primary: hsl(166, 100%, 76%);
-    --docupotamus-color-accent-alternative: hsl(166, 100%, 70%);
-
     /* See: https://coolors.co/85ffe2-66ffdb-76f4db-5ee8cd-3be3c1-1fd6b1-2bcaaa-30c3a6 */
-    --ifm-color-primary-lightest: var(--docupotamus-color-accent-primary);
+    --ifm-color-primary-lightest: hsl(166, 100%, 76%);
     --ifm-color-primary-lighter: hsl(168, 85%, 71%);
     --ifm-color-primary-light: hsl(168, 75%, 64%);
     --ifm-color-primary: hsl(168, 75%, 56%);
@@ -38,6 +35,8 @@
     --ifm-font-family-base: 'Karla', sans-serif;
 
     /* DOCUPOTAMUS CLASSIC */
+    --docupotamus-color-accent-primary: var(--ifm-color-primary-lightest);
+    --docupotamus-color-accent-alternative: hsl(166, 100%, 70%);  /* currently unused */
     --docupotamus-color-gray-primary: var(--ifm-color-gray-700);
 }
 
