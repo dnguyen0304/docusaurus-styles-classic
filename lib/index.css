@@ -20,6 +20,21 @@
     --docupotamus-color-gray-1000: var(--docupotamus-color-black);
     --docupotamus-color-gray-primary: var(--docupotamus-color-gray-700);
 
+    --ifm-color-white: var(--docupotamus-color-white);
+    --ifm-color-black: var(--docupotamus-color-black);
+
+    --ifm-color-gray-0: var(--docupotamus-color-gray-0);
+    --ifm-color-gray-100: var(--docupotamus-color-gray-100);
+    --ifm-color-gray-200: var(--docupotamus-color-gray-200);
+    --ifm-color-gray-300: var(--docupotamus-color-gray-300);
+    --ifm-color-gray-400: var(--docupotamus-color-gray-400);
+    --ifm-color-gray-500: var(--docupotamus-color-gray-500);
+    --ifm-color-gray-600: var(--docupotamus-color-gray-600);
+    --ifm-color-gray-700: var(--docupotamus-color-gray-700);
+    --ifm-color-gray-800: var(--docupotamus-color-gray-800);
+    --ifm-color-gray-900: var(--docupotamus-color-gray-900);
+    --ifm-color-gray-1000: var(--docupotamus-color-gray-1000);
+
     --ifm-color-primary: #2e8555;
     --ifm-color-primary-dark: #29784c;
     --ifm-color-primary-darker: #277148;
