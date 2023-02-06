@@ -89,3 +89,20 @@ html[data-theme='dark'] {
     /* BASE */
     --ifm-background-color: var(--ifm-color-gray-700);
 }
+
+html[data-theme='dark'] .theme-doc-markdown :not(
+    a,
+    code,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    kbd,
+    pre
+) {
+    --ifm-font-color-base: var(--ifm-color-gray-200);
+
+    color: var(--ifm-font-color-base);
+}
