@@ -83,6 +83,10 @@
     --docupotamus-color-gray: var(--ifm-color-gray-700);
 }
 
+html:not([data-theme='dark']) {
+    --ifm-toc-border-color: var(--ifm-color-emphasis-100);
+}
+
 html:not([data-theme='dark']) .theme-doc-markdown :not(
     a,
     code *,
