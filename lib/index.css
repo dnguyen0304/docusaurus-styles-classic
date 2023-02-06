@@ -100,7 +100,8 @@ html[data-theme='dark'] .theme-doc-markdown :not(
     h5,
     h6,
     kbd,
-    pre
+    pre,
+    strong
 ) {
     --ifm-font-color-base: var(--ifm-color-gray-200);
 
