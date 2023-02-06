@@ -102,6 +102,12 @@ html:not([data-theme='dark']) .theme-doc-markdown :not(
     font-weight: var(--ifm-font-weight-semibold);
 }
 
+/* Undo styles that were "leaked" via inheritance even though the direct
+elements were excluded above. */
+html:not([data-theme='dark']) .theme-doc-markdown code {
+    font-weight: revert;
+}
+
 /* TODO(dnguyen0304: Consider a lighter palette in dark mode for better
    readability. */
 html[data-theme='dark'] {
