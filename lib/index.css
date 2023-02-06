@@ -81,10 +81,15 @@
     --docupotamus-color-accent: var(--ifm-color-primary-lightest);
     --docupotamus-color-accent-alternative: hsl(166, 100%, 70%);  /* currently unused */
     --docupotamus-color-gray: var(--ifm-color-gray-700);
+    --docupotamus-border-color-gray-light: var(--ifm-color-emphasis-100);
 }
 
 html:not([data-theme='dark']) {
-    --ifm-toc-border-color: var(--ifm-color-emphasis-100);
+    --ifm-toc-border-color: var(--docupotamus-border-color-gray-light);
+}
+
+html:not([data-theme='dark']) .pagination-nav__link {
+    --ifm-color-emphasis-300: var(--docupotamus-border-color-gray-light);
 }
 
 html:not([data-theme='dark']) .theme-doc-markdown :not(
