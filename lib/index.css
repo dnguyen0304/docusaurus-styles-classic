@@ -75,6 +75,7 @@
 
     /* TYPOGRAPHY */
     --ifm-font-family-base: 'Work Sans', sans-serif;
+    --ifm-heading-font-family: 'Nexa', 'Helvetica', 'Arial', sans-serif;
 
     /* DOCUPOTAMUS CLASSIC */
     --docupotamus-color-accent: var(--ifm-color-primary-lightest);
