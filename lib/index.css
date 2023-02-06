@@ -117,7 +117,7 @@ html[data-theme='dark'] {
 
 html[data-theme='dark'] .theme-doc-markdown :not(
     a,
-    code,
+    code *,
     h1,
     h2,
     h3,
