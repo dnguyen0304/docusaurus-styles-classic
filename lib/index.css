@@ -1,5 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap');
 
+@font-face {
+    font-family: 'Nexa';
+    src: url('../static/fonts/sans-serif/Nexa/Nexa-Heavy.eot');
+    src: local('Nexa Heavy'), local('Nexa-Heavy'),
+        url('../static/fonts/sans-serif/Nexa/Nexa-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../static/fonts/sans-serif/Nexa/Nexa-Heavy.woff2') format('woff2'),
+        url('../static/fonts/sans-serif/Nexa/Nexa-Heavy.woff') format('woff'),
+        url('../static/fonts/sans-serif/Nexa/Nexa-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../static/fonts/sans-serif/Nexa/Nexa-HeavyItalic.eot');
+    src: local('Nexa Heavy Italic'), local('Nexa-HeavyItalic'),
+        url('../static/fonts/sans-serif/Nexa/Nexa-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('../static/fonts/sans-serif/Nexa/Nexa-HeavyItalic.woff2') format('woff2'),
+        url('../static/fonts/sans-serif/Nexa/Nexa-HeavyItalic.woff') format('woff'),
+        url('../static/fonts/sans-serif/Nexa/Nexa-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
 :root {
     /* COLORS */
     /* See: https://coolors.co/85ffe2-66ffdb-76f4db-5ee8cd-3be3c1-1fd6b1-2bcaaa-30c3a6 */
