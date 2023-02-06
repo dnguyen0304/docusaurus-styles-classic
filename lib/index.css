@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap');
 
 :root {
     /* COLORS */
@@ -50,7 +50,7 @@
     --ifm-background-color: var(--ifm-color-white);
 
     /* TYPOGRAPHY */
-    --ifm-font-family-base: 'Karla', sans-serif;
+    --ifm-font-family-base: 'Work Sans', sans-serif;
 
     /* DOCUPOTAMUS CLASSIC */
     --docupotamus-color-accent: var(--ifm-color-primary-lightest);
