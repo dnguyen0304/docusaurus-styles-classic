@@ -84,6 +84,9 @@
     --docupotamus-border-color-gray-light: var(--ifm-color-emphasis-100);
 }
 
+/* TODO(dnguyen0304): Fix colors for blockquotes. */
+/* TODO(dnguyen0304): Fix colors for tables. */
+
 html:not([data-theme='dark']) {
     --ifm-toc-border-color: var(--docupotamus-border-color-gray-light);
 }
