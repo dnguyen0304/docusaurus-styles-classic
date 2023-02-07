@@ -148,6 +148,19 @@ html[data-theme='dark'] {
     --ifm-background-color: var(--ifm-color-gray-700);
 }
 
+/* Navigation, Side */
+html[data-theme='dark'] .theme-doc-sidebar-menu {
+    font-weight: var(--ifm-font-weight-normal);
+}
+
+html[data-theme='dark'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-category .menu__link--sublist {
+    --ifm-menu-color: var(--ifm-color-emphasis-1000);
+}
+
+html[data-theme='dark'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link {
+    --ifm-menu-color: var(--ifm-color-emphasis-800);
+}
+
 /* Markdown Body Text */
 html[data-theme='dark'] .theme-doc-markdown :not(
     a,
