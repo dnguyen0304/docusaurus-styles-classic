@@ -75,7 +75,9 @@
 
     /* TYPOGRAPHY */
     --ifm-font-family-base: 'Work Sans', 'Helvetica', 'Arial', sans-serif;
+    --ifm-font-weight-extrabold: 900;  /* extension not override */
     --ifm-heading-font-family: 'Nexa', 'Helvetica', 'Arial', sans-serif;
+    --ifm-heading-font-weight: var(--ifm-font-weight-extrabold);
 
     /* DOCUPOTAMUS CLASSIC */
     --docupotamus-color-accent: var(--ifm-color-primary-lightest);
