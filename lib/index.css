@@ -87,14 +87,19 @@
 /* TODO(dnguyen0304): Fix colors for blockquotes. */
 /* TODO(dnguyen0304): Fix colors for tables. */
 
+/* LIGHT MODE */
+
+/* Base */
 html:not([data-theme='dark']) {
     --ifm-toc-border-color: var(--docupotamus-border-color-gray-light);
 }
 
+/* Navigation, Bottom */
 html:not([data-theme='dark']) .pagination-nav__link {
     --ifm-color-emphasis-300: var(--docupotamus-border-color-gray-light);
 }
 
+/* Markdown Body Text */
 html:not([data-theme='dark']) .theme-doc-markdown :not(
     a,
     code *,
@@ -114,12 +119,14 @@ html:not([data-theme='dark']) .theme-doc-markdown :not(
     font-weight: var(--ifm-font-weight-semibold);
 }
 
+/* Code */
 /* Undo styles that were "leaked" via inheritance even though the direct
-elements were excluded above. */
+   elements were excluded above. */
 html:not([data-theme='dark']) .theme-doc-markdown code {
     font-weight: revert;
 }
 
+/* Code Highlight */
 /* Warning: This class name has no cohesion with the docusaurus-theme-classic
    configuration setting. */
 html:not([data-theme='dark']) .theme-code-block-highlighted-line {
@@ -127,13 +134,16 @@ html:not([data-theme='dark']) .theme-code-block-highlighted-line {
     --docusaurus-highlighted-code-line-bg: rgba(170, 170, 170, 0.1);
 }
 
+/* DARK MODE */
+
+/* Base */
 /* TODO(dnguyen0304: Consider a lighter palette in dark mode for better
    readability. */
 html[data-theme='dark'] {
-    /* BASE */
     --ifm-background-color: var(--ifm-color-gray-700);
 }
 
+/* Markdown Body Text */
 html[data-theme='dark'] .theme-doc-markdown :not(
     a,
     code *,
@@ -152,6 +162,7 @@ html[data-theme='dark'] .theme-doc-markdown :not(
     color: var(--ifm-font-color-base);
 }
 
+/* Code Highlight */
 /* Warning: This class name has no cohesion with the docusaurus-theme-classic
    configuration setting. */
 html[data-theme='dark'] .theme-code-block-highlighted-line {
