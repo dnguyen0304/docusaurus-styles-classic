@@ -147,6 +147,7 @@ html:not([data-theme='dark']) .theme-code-block-highlighted-line {
 /* TODO(dnguyen0304: Consider a lighter palette in dark mode for better
    readability. */
 html[data-theme='dark'] {
+    --ifm-color-primary: var(--ifm-color-primary-lightest);
     --ifm-background-color: var(--ifm-color-gray-700);
 }
 
