@@ -26,13 +26,13 @@
 
 :root {
     /* COLORS */
-    /* See: https://coolors.co/85ffe2-66ffdb-76f4db-5ee8cd-3be3c1-1fd6b1-2bcaaa-30c3a6 */
+    /* See: https://coolors.co/30c3a6-4ac1a8-57c0a9-63bfaa-6ccfb8-7defd4-85ffe2 */
     --ifm-color-primary-lightest: hsl(166, 100%, 76%);
-    --ifm-color-primary-lighter: hsl(168, 85%, 71%);
-    --ifm-color-primary-light: hsl(168, 75%, 64%);
-    --ifm-color-primary: hsl(168, 75%, 56%);
-    --ifm-color-primary-dark: hsl(168, 75%, 48%);
-    --ifm-color-primary-darker: hsl(168, 65%, 48%);
+    --ifm-color-primary-lighter: hsl(166, 78%, 71%);
+    --ifm-color-primary-light: hsl(166, 51%, 62%);
+    --ifm-color-primary: hsl(166, 42%, 57%);
+    --ifm-color-primary-dark: hsl(167, 45%, 55%);
+    --ifm-color-primary-darker: hsl(167, 49%, 52%);
     --ifm-color-primary-darkest: hsl(168, 60%, 48%);
 
     /* See: https://coolors.co/fee59a-fee086-fed65d-fcc935-fbc00e-fbb80e-f1ae04 */
