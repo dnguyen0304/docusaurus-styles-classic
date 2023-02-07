@@ -94,6 +94,11 @@ html:not([data-theme='dark']) {
     --ifm-toc-border-color: var(--docupotamus-border-color-gray-light);
 }
 
+/* Navigation, Side */
+html:not([data-theme='dark']) .theme-doc-sidebar-item-link .menu__link {
+    --ifm-menu-color: var(--ifm-color-gray-400);
+}
+
 /* Navigation, Bottom */
 html:not([data-theme='dark']) .pagination-nav__link {
     --ifm-color-emphasis-300: var(--docupotamus-border-color-gray-light);
