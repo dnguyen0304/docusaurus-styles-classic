@@ -119,6 +119,11 @@ html .table-of-contents__link {
     padding: var(--link-padding-vertical) var(--link-padding-horizontal);
 }
 
+html .theme-doc-sidebar-menu .theme-doc-sidebar-item-category .menu__link--sublist:hover,
+html .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link:hover {
+    color: var(--ifm-color-primary);
+}
+
 html .table-of-contents li {
     /* In this scope, this is used for margin. */
     --ifm-toc-padding-vertical: 0;
