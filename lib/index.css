@@ -110,6 +110,15 @@ html[data-theme='light'] {
 }
 
 /* Navigation, Side */
+html[data-theme='light'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-category .menu__link--sublist,
+html[data-theme='light'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link {
+    /* TODO(dnguyen0304): Fix missing responsive design. */
+    --ifm-menu-link-padding-vertical: 0.6rem;
+    --ifm-menu-link-padding-horizontal: calc(2 * var(--ifm-menu-link-padding-vertical));
+
+    border-radius: var(--ifm-global-radius);
+}
+
 html[data-theme='light'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link {
     --ifm-menu-color: var(--ifm-color-emphasis-400);
 }
