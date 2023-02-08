@@ -150,11 +150,15 @@ html[data-theme='light'] .theme-code-block-highlighted-line {
 /* TODO(dnguyen0304: Consider a lighter palette in dark mode for better
    readability. */
 html[data-theme='dark'] {
+    --toc-text-color: var(--ifm-color-emphasis-800);
+    --topnav-and-heading-text-color: var(--ifm-color-emphasis-900);
+    --topnav-background-color: var(--ifm-background-color);
+
     --ifm-color-primary: var(--ifm-color-primary-lightest);
-    --ifm-color-content-secondary: var(--ifm-color-emphasis-800);
+    --ifm-color-content-secondary: var(--toc-text-color);
     --ifm-background-color: var(--ifm-color-gray-700);
-    --ifm-background-surface-color: var(--ifm-background-color);  /* Navigation, Top */
-    --ifm-font-color-base: var(--ifm-color-emphasis-900);
+    --ifm-background-surface-color: var(--topnav-background-color);
+    --ifm-font-color-base: var(--topnav-and-heading-text-color);
 }
 
 /* Navigation, Side */
