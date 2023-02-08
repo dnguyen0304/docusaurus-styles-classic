@@ -102,6 +102,11 @@ nav.theme-doc-breadcrumbs {
     margin-bottom: 2rem;
 }
 
+footer.footer {
+    /* TODO(dnguyen0304): Fix missing responsive design. */
+    margin-top: 3rem;
+}
+
 /* TODO(dnguyen0304): Fix colors for blockquotes. */
 /* TODO(dnguyen0304): Fix colors for tables. */
 
