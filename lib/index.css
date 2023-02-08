@@ -107,7 +107,7 @@ html[data-theme='light'] {
 
     --ifm-color-content-secondary: var(--toc-text-color);
     --ifm-heading-color: var(--ifm-color-emphasis-700);
-    --ifm-toc-border-color: var(--docupotamus-border-color-gray-light);
+    --ifm-toc-border-color: var(--ifm-background-color);
 }
 
 /* Navigation, Side */
