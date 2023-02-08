@@ -127,11 +127,6 @@ html[data-theme='light'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .m
     --ifm-menu-color: var(--ifm-color-emphasis-500);
 }
 
-/* Navigation, Bottom */
-html[data-theme='light'] .pagination-nav__link {
-    --ifm-color-emphasis-300: var(--docupotamus-border-color-gray-light);
-}
-
 html[data-theme='light'] .table-of-contents__link {
     /* TODO(dnguyen0304): Fix missing responsive design. */
     --link-padding-vertical: 0.3rem;
@@ -139,6 +134,11 @@ html[data-theme='light'] .table-of-contents__link {
 
 html[data-theme='light'] .table-of-contents__link:hover {
     background-color: var(--ifm-hover-overlay);
+}
+
+/* Navigation, Bottom */
+html[data-theme='light'] .pagination-nav__link {
+    --ifm-color-emphasis-300: var(--docupotamus-border-color-gray-light);
 }
 
 /* Markdown Body Text */
