@@ -93,6 +93,10 @@
     --docupotamus-border-color-gray-light: var(--ifm-color-emphasis-100);
 }
 
+main div[class*='docItemContainer'] {
+    padding: 0 calc((100% - 70ch) / 2);
+}
+
 /* TODO(dnguyen0304): Fix colors for blockquotes. */
 /* TODO(dnguyen0304): Fix colors for tables. */
 
