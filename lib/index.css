@@ -80,7 +80,7 @@
     /* BASE */
     --ifm-background-color: var(--ifm-color-white);
 
-    --ifm-hover-overlay: hsla(var(--ifm-color-primary-light-hsl), 0.15);
+    --ifm-hover-overlay: hsla(var(--ifm-color-primary-lighter-hsl), 0.15);
 
     /* TYPOGRAPHY */
     --ifm-font-family-base: 'Work Sans', 'Helvetica', 'Arial', sans-serif;
