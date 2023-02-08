@@ -28,18 +28,19 @@
     /* COLORS */
     /* See: https://coolors.co/30c3a6-4ac1a8-57c0a9-63bfaa-6ccfb8-7defd4-85ffe2 */
     --ifm-color-primary-lightest-hsl: 166, 100%, 76%;
-    --ifm-color-primary-lightest: hsl(var(--ifm-color-primary-lightest-hsl));
     --ifm-color-primary-lighter-hsl: 166, 78%, 71%;
-    --ifm-color-primary-lighter: hsl(var(--ifm-color-primary-lighter-hsl));
     --ifm-color-primary-light-hsl: 166, 51%, 62%;
-    --ifm-color-primary-light: hsl(var(--ifm-color-primary-light-hsl));
     --ifm-color-primary-hsl: 166, 42%, 57%;
-    --ifm-color-primary: hsl(var(--ifm-color-primary-hsl));
     --ifm-color-primary-dark-hsl: 167, 45%, 55%;
-    --ifm-color-primary-dark: hsl(var(--ifm-color-primary-dark-hsl));
     --ifm-color-primary-darker-hsl: 167, 49%, 52%;
-    --ifm-color-primary-darker: hsl(var(--ifm-color-primary-darker-hsl));
     --ifm-color-primary-darkest-hsl: 168, 60%, 48%;
+
+    --ifm-color-primary-lightest: hsl(var(--ifm-color-primary-lightest-hsl));
+    --ifm-color-primary-lighter: hsl(var(--ifm-color-primary-lighter-hsl));
+    --ifm-color-primary-light: hsl(var(--ifm-color-primary-light-hsl));
+    --ifm-color-primary: hsl(var(--ifm-color-primary-hsl));
+    --ifm-color-primary-dark: hsl(var(--ifm-color-primary-dark-hsl));
+    --ifm-color-primary-darker: hsl(var(--ifm-color-primary-darker-hsl));
     --ifm-color-primary-darkest: hsl(var(--ifm-color-primary-darkest-hsl));
 
     /* See: https://coolors.co/fee59a-fee086-fed65d-fcc935-fbc00e-fbb80e-f1ae04 */
