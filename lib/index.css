@@ -91,24 +91,24 @@
 /* LIGHT MODE */
 
 /* Base */
-html:not([data-theme='dark']) {
+html[data-theme='light'] {
     --ifm-color-content-secondary: var(--ifm-color-gray-500);
     --ifm-heading-color: var(--ifm-color-gray-700);
     --ifm-toc-border-color: var(--docupotamus-border-color-gray-light);
 }
 
 /* Navigation, Side */
-html:not([data-theme='dark']) .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link {
+html[data-theme='light'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link {
     --ifm-menu-color: var(--ifm-color-gray-400);
 }
 
 /* Navigation, Bottom */
-html:not([data-theme='dark']) .pagination-nav__link {
+html[data-theme='light'] .pagination-nav__link {
     --ifm-color-emphasis-300: var(--docupotamus-border-color-gray-light);
 }
 
 /* Markdown Body Text */
-html:not([data-theme='dark']) .theme-doc-markdown :not(
+html[data-theme='light'] .theme-doc-markdown :not(
     a,
     code *,
     h1,
@@ -130,14 +130,14 @@ html:not([data-theme='dark']) .theme-doc-markdown :not(
 /* Code */
 /* Undo styles that were "leaked" via inheritance even though the direct
    elements were excluded above. */
-html:not([data-theme='dark']) .theme-doc-markdown code {
+html[data-theme='light'] .theme-doc-markdown code {
     font-weight: revert;
 }
 
 /* Code Highlight */
 /* Warning: This class name has no cohesion with the docusaurus-theme-classic
    configuration setting. */
-html:not([data-theme='dark']) .theme-code-block-highlighted-line {
+html[data-theme='light'] .theme-code-block-highlighted-line {
     /* TODO(dnguyen0304): Use a color from the --ifm-color-gray palette. */
     --docusaurus-highlighted-code-line-bg: rgba(170, 170, 170, 0.1);
 }
