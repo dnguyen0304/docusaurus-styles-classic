@@ -70,6 +70,8 @@
     --ifm-color-gray-1000: var(--ifm-color-black);
 
     /* BASE */
+    --ifm-color-content-secondary: var(--ifm-color-gray-500);
+
     --ifm-background-color: var(--ifm-color-white);
 
     /* TYPOGRAPHY */
