@@ -122,7 +122,7 @@ html[data-theme='light'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .m
 }
 
 html[data-theme='light'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link {
-    --ifm-menu-color: var(--ifm-color-emphasis-400);
+    --ifm-menu-color: var(--ifm-color-emphasis-500);
 }
 
 /* Navigation, Bottom */
