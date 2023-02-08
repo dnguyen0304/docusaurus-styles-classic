@@ -94,7 +94,7 @@
 }
 
 main div[class*='docItemContainer'] {
-    padding: 0 calc((100% - 70ch) / 2);
+    padding: 0 calc((100% - 75ch) / 2);
 }
 
 nav.theme-doc-breadcrumbs {
