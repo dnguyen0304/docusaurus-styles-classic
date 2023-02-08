@@ -129,6 +129,10 @@ html .table-of-contents__link {
     --link-padding-vertical: 0.3rem;
 }
 
+html .table-of-contents__link:hover {
+    background-color: var(--ifm-hover-overlay);
+}
+
 /* LIGHT MODE */
 
 /* Base */
@@ -139,10 +143,6 @@ html[data-theme='light'] {
     --ifm-heading-color: var(--ifm-color-emphasis-700);
 }
 
-/* Navigation, Side */
-html .table-of-contents__link:hover {
-    background-color: var(--ifm-hover-overlay);
-}
 
 html[data-theme='light'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link {
     --ifm-menu-color: var(--ifm-color-emphasis-500);
