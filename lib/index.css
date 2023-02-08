@@ -80,7 +80,8 @@
     /* BASE */
     --ifm-background-color: var(--ifm-color-white);
 
-    --ifm-hover-overlay: hsla(var(--ifm-color-primary-lighter-hsl), 0.15);
+    /* Setting an alpha value between 0.15 and 0.2 is usually good. */
+    --ifm-hover-overlay: hsla(var(--ifm-color-primary-darkest-hsl), 0.18);
 
     /* TYPOGRAPHY */
     --ifm-font-family-base: 'Work Sans', 'Helvetica', 'Arial', sans-serif;
