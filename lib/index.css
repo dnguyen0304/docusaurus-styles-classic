@@ -96,7 +96,7 @@ html:not([data-theme='dark']) {
 }
 
 /* Navigation, Side */
-html:not([data-theme='dark']) .theme-doc-sidebar-item-link .menu__link {
+html:not([data-theme='dark']) .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link {
     --ifm-menu-color: var(--ifm-color-gray-400);
 }
 
