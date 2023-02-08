@@ -111,6 +111,7 @@ html[data-theme='light'] {
 }
 
 /* Navigation, Side */
+/* TODO(dnguyen0304): Fix duplicated code. */
 html[data-theme='light'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-category .menu__link--sublist,
 html[data-theme='light'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link {
     /* TODO(dnguyen0304): Fix missing responsive design. */
@@ -130,7 +131,17 @@ html[data-theme='light'] .pagination-nav__link {
     --ifm-color-emphasis-300: var(--docupotamus-border-color-gray-light);
 }
 
-/* Table of Contents */
+/* TODO(dnguyen0304): Fix duplicated code. */
+html[data-theme='light'] .table-of-contents__link {
+    /* TODO(dnguyen0304): Fix missing responsive design. */
+    --ifm-menu-link-padding-vertical: 0.3rem;
+    --ifm-menu-link-padding-horizontal:
+        calc(2 * var(--ifm-menu-link-padding-vertical));
+
+    border-radius: var(--ifm-global-radius);
+    padding: var(--ifm-menu-link-padding-vertical) var(--ifm-menu-link-padding-horizontal);
+}
+
 html[data-theme='light'] .table-of-contents__link:hover {
     background-color: var(--ifm-hover-overlay);
 }
