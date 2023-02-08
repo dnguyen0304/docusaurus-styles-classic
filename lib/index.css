@@ -93,7 +93,7 @@
 /* Base */
 html:not([data-theme='dark']) {
     --ifm-color-content-secondary: var(--ifm-color-gray-500);
-
+    --ifm-heading-color: var(--ifm-color-gray-700);
     --ifm-toc-border-color: var(--docupotamus-border-color-gray-light);
 }
 
