@@ -127,6 +127,14 @@ html[data-theme='light'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .m
     --ifm-menu-color: var(--ifm-color-emphasis-500);
 }
 
+html[data-theme='light'] .table-of-contents li {
+    /* In this scope, this is used for margin. */
+    --ifm-toc-padding-vertical: 0;
+
+    /* Use the same value as the sidebar menu links. */
+    margin-top: 0.25rem;
+}
+
 html[data-theme='light'] .table-of-contents__link {
     /* TODO(dnguyen0304): Fix missing responsive design. */
     --link-padding-vertical: 0.3rem;
