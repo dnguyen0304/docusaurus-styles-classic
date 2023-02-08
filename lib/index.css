@@ -151,8 +151,8 @@ html[data-theme='dark'] {
     --ifm-color-primary: var(--ifm-color-primary-lightest);
     --ifm-color-content-secondary: var(--ifm-color-emphasis-800);
     --ifm-background-color: var(--ifm-color-gray-700);
-    /* Navigation, Top */
-    --ifm-background-surface-color: var(--ifm-background-color);
+    --ifm-background-surface-color: var(--ifm-background-color);  /* Navigation, Top */
+    --ifm-font-color-base: var(--ifm-color-emphasis-900);
 }
 
 /* Navigation, Side */
@@ -195,6 +195,7 @@ html[data-theme='dark'] .theme-code-block-highlighted-line {
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.2);
 }
 
+/* Footer */
 html[data-theme='dark'] .footer--dark {
     /* TODO(dnguyen0304): Investigate setting a convention between color and
        color-emphasis. */
