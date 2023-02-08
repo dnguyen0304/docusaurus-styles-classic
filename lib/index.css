@@ -92,16 +92,16 @@
 
 /* Base */
 html[data-theme='light'] {
-    --toc-text-color: var(--ifm-color-gray-500);
+    --toc-text-color: var(--ifm-color-emphasis-500);
 
     --ifm-color-content-secondary: var(--toc-text-color);
-    --ifm-heading-color: var(--ifm-color-gray-700);
+    --ifm-heading-color: var(--ifm-color-emphasis-700);
     --ifm-toc-border-color: var(--docupotamus-border-color-gray-light);
 }
 
 /* Navigation, Side */
 html[data-theme='light'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link {
-    --ifm-menu-color: var(--ifm-color-gray-400);
+    --ifm-menu-color: var(--ifm-color-emphasis-400);
 }
 
 /* Navigation, Bottom */
@@ -123,7 +123,7 @@ html[data-theme='light'] .theme-doc-markdown :not(
     pre,
     strong
 ) {
-    --ifm-font-color-base: var(--ifm-color-gray-600);
+    --ifm-font-color-base: var(--ifm-color-emphasis-600);
 
     color: var(--ifm-font-color-base);
     font-weight: var(--ifm-font-weight-semibold);
@@ -156,7 +156,7 @@ html[data-theme='dark'] {
 
     --ifm-color-primary: var(--ifm-color-primary-lightest);
     --ifm-color-content-secondary: var(--toc-text-color);
-    --ifm-background-color: var(--ifm-color-gray-700);
+    --ifm-background-color: var(--ifm-color-emphasis-300);
     --ifm-background-surface-color: var(--topnav-background-color);
     --ifm-font-color-base: var(--topnav-and-heading-text-color);
 }
@@ -188,7 +188,7 @@ html[data-theme='dark'] .theme-doc-markdown :not(
     pre,
     strong
 ) {
-    --ifm-font-color-base: var(--ifm-color-gray-200);
+    --ifm-font-color-base: var(--ifm-color-emphasis-800);
 
     color: var(--ifm-font-color-base);
 }
@@ -205,5 +205,5 @@ html[data-theme='dark'] .theme-code-block-highlighted-line {
 html[data-theme='dark'] .footer--dark {
     /* TODO(dnguyen0304): Investigate setting a convention between color and
        color-emphasis. */
-    --ifm-footer-background-color: var(--ifm-color-gray-800);
+    --ifm-footer-background-color: var(--ifm-color-emphasis-200);
 }
