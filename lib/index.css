@@ -92,7 +92,6 @@
 
 /* Base */
 html:not([data-theme='dark']) {
-    /* Navigation, Top */
     --ifm-color-content-secondary: var(--ifm-color-gray-500);
 
     --ifm-toc-border-color: var(--docupotamus-border-color-gray-light);
@@ -150,10 +149,10 @@ html:not([data-theme='dark']) .theme-code-block-highlighted-line {
    readability. */
 html[data-theme='dark'] {
     --ifm-color-primary: var(--ifm-color-primary-lightest);
-    --ifm-background-color: var(--ifm-color-gray-700);
-
-    /* Navigation, Top */
     --ifm-color-content-secondary: var(--ifm-color-emphasis-800);
+    --ifm-background-color: var(--ifm-color-gray-700);
+    /* Navigation, Top */
+    --ifm-background-surface-color: var(--ifm-background-color);
 }
 
 /* Navigation, Side */
