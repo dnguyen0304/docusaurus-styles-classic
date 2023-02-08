@@ -194,3 +194,9 @@ html[data-theme='dark'] .theme-code-block-highlighted-line {
     /* TODO(dnguyen0304): Use a color from the --ifm-color-gray palette. */
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.2);
 }
+
+html[data-theme='dark'] .footer--dark {
+    /* TODO(dnguyen0304): Investigate setting a convention between color and
+       color-emphasis. */
+    --ifm-footer-background-color: var(--ifm-color-gray-800);
+}
