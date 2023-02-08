@@ -70,8 +70,6 @@
     --ifm-color-gray-1000: var(--ifm-color-black);
 
     /* BASE */
-    --ifm-color-content-secondary: var(--ifm-color-gray-500);
-
     --ifm-background-color: var(--ifm-color-white);
 
     /* TYPOGRAPHY */
@@ -94,6 +92,9 @@
 
 /* Base */
 html:not([data-theme='dark']) {
+    /* Navigation, Top */
+    --ifm-color-content-secondary: var(--ifm-color-gray-500);
+
     --ifm-toc-border-color: var(--docupotamus-border-color-gray-light);
 }
 
@@ -150,6 +151,9 @@ html:not([data-theme='dark']) .theme-code-block-highlighted-line {
 html[data-theme='dark'] {
     --ifm-color-primary: var(--ifm-color-primary-lightest);
     --ifm-background-color: var(--ifm-color-gray-700);
+
+    /* Navigation, Top */
+    --ifm-color-content-secondary: var(--ifm-color-emphasis-800);
 }
 
 /* Navigation, Side */
@@ -162,7 +166,7 @@ html[data-theme='dark'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-category
 }
 
 html[data-theme='dark'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link {
-    --ifm-menu-color: var(--ifm-color-emphasis-800);
+    --ifm-menu-color: var(--ifm-color-content-secondary);
 }
 
 /* Markdown Body Text */
