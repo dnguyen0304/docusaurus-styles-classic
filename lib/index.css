@@ -168,8 +168,7 @@ main div[class*='docItemContainer'] {
 }
 
 .table-of-contents__link {
-    /* TODO(dnguyen0304): Fix missing responsive design. */
-    --link-padding-vertical: 0.3rem;
+    --link-padding-vertical: var(--space-3xs);
 }
 
 .table-of-contents__link:hover {
