@@ -176,8 +176,7 @@ main div[class*='docItemContainer'] {
 }
 
 footer.footer {
-    /* TODO(dnguyen0304): Fix missing responsive design. */
-    margin-top: 3rem;
+    margin-top: var(--space-l-xl);
 }
 
 /* TODO(dnguyen0304): Fix colors for blockquotes. */
