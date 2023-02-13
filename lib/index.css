@@ -135,12 +135,12 @@
     --docupotamus-border-color-gray-light: var(--ifm-color-emphasis-100);
 }
 
-nav.theme-doc-breadcrumbs {
-    margin-bottom: var(--space-m);
-}
-
 main div[class*='docItemContainer'] {
     padding: 0 calc((100% - 75ch) / 2);
+}
+
+.theme-doc-markdown {
+    margin-top: var(--space-m);
 }
 
 /* Navigation, Side */
