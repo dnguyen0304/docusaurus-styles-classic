@@ -90,18 +90,13 @@
     --docupotamus-border-color-gray-light: var(--ifm-color-emphasis-100);
 }
 
-main div[class*='docItemContainer'] {
-    padding: 0 calc((100% - 75ch) / 2);
-}
-
 nav.theme-doc-breadcrumbs {
     /* TODO(dnguyen0304): Fix missing responsive design. */
     margin-bottom: 2rem;
 }
 
-footer.footer {
-    /* TODO(dnguyen0304): Fix missing responsive design. */
-    margin-top: 3rem;
+main div[class*='docItemContainer'] {
+    padding: 0 calc((100% - 75ch) / 2);
 }
 
 /* Navigation, Side */
@@ -136,6 +131,11 @@ footer.footer {
 
 .table-of-contents__link:hover {
     background-color: var(--ifm-hover-overlay);
+}
+
+footer.footer {
+    /* TODO(dnguyen0304): Fix missing responsive design. */
+    margin-top: 3rem;
 }
 
 /* TODO(dnguyen0304): Fix colors for blockquotes. */
