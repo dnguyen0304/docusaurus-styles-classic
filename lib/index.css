@@ -104,20 +104,10 @@ footer.footer {
     margin-top: 3rem;
 }
 
-/* TODO(dnguyen0304): Fix colors for blockquotes. */
-/* TODO(dnguyen0304): Fix colors for tables. */
-
-html[data-theme='light'],
-html[data-theme='dark'] {
-    /* Setting an alpha value between 0.15 and 0.2 is usually good. */
-    --ifm-hover-overlay: hsla(var(--ifm-color-primary-darkest-hsl), 0.18);
-    --ifm-toc-border-color: transparent;
-}
-
 /* Navigation, Side */
-html .theme-doc-sidebar-menu .theme-doc-sidebar-item-category .menu__link--sublist,
-html .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link,
-html .table-of-contents__link {
+.theme-doc-sidebar-menu .theme-doc-sidebar-item-category .menu__link--sublist,
+.theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link,
+.table-of-contents__link {
     /* TODO(dnguyen0304): Fix missing responsive design. */
     --link-padding-vertical: 0.6rem;
     --link-padding-horizontal: calc(2 * var(--link-padding-vertical));
@@ -126,12 +116,12 @@ html .table-of-contents__link {
     padding: var(--link-padding-vertical) var(--link-padding-horizontal);
 }
 
-html .theme-doc-sidebar-menu .theme-doc-sidebar-item-category .menu__link--sublist:hover,
-html .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link:hover {
+.theme-doc-sidebar-menu .theme-doc-sidebar-item-category .menu__link--sublist:hover,
+.theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link:hover {
     color: var(--ifm-color-primary);
 }
 
-html .table-of-contents li {
+.table-of-contents li {
     /* In this scope, this is used for margin. */
     --ifm-toc-padding-vertical: 0;
 
@@ -139,13 +129,23 @@ html .table-of-contents li {
     margin-top: 0.25rem;
 }
 
-html .table-of-contents__link {
+.table-of-contents__link {
     /* TODO(dnguyen0304): Fix missing responsive design. */
     --link-padding-vertical: 0.3rem;
 }
 
-html .table-of-contents__link:hover {
+.table-of-contents__link:hover {
     background-color: var(--ifm-hover-overlay);
+}
+
+/* TODO(dnguyen0304): Fix colors for blockquotes. */
+/* TODO(dnguyen0304): Fix colors for tables. */
+
+html[data-theme='light'],
+html[data-theme='dark'] {
+    /* Setting an alpha value between 0.15 and 0.2 is usually good. */
+    --ifm-hover-overlay: hsla(var(--ifm-color-primary-darkest-hsl), 0.18);
+    --ifm-toc-border-color: transparent;
 }
 
 /* LIGHT MODE */
