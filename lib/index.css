@@ -147,8 +147,7 @@ main div[class*='docItemContainer'] {
 .theme-doc-sidebar-menu .theme-doc-sidebar-item-category .menu__link--sublist,
 .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link,
 .table-of-contents__link {
-    /* TODO(dnguyen0304): Fix missing responsive design. */
-    --link-padding-vertical: 0.6rem;
+    --link-padding-vertical: var(--space-2xs);
     --link-padding-horizontal: calc(2 * var(--link-padding-vertical));
 
     border-radius: var(--ifm-global-radius);
