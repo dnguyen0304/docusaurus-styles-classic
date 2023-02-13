@@ -61,21 +61,36 @@
     --ifm-color-danger-darker: hsl(350, 56%, 51%);
     --ifm-color-danger-darkest: hsl(350, 55%, 45%);
 
-    --ifm-color-white: hsl(0, 0%, 98%);  /* equivalent to hsl(210, 17%, 98%) */
-    --ifm-color-black: hsl(240, 20%, 4%);
+    --ifm-color-white-hsl: 0, 0%, 98%;  /* equivalent to hsl(210, 17%, 98%) */
+    --ifm-color-black-hsl: 240, 20%, 4%;
+
+    --ifm-color-white: hsl(var(--ifm-color-white-hsl));
+    --ifm-color-black: hsl(var(--ifm-color-black-hsl));
 
     /* See: https://coolors.co/dadbe6-b6b9cd-9497b3-707699-50567c-3c3e53-1c1d27-191a25-101019-08080c */
-    --ifm-color-gray-0: var(--ifm-color-white);
-    --ifm-color-gray-100: hsl(235, 19%, 88%);
-    --ifm-color-gray-200: hsl(232, 19%, 76%);
-    --ifm-color-gray-300: hsl(234, 17%, 64%);
-    --ifm-color-gray-400: hsl(231, 17%, 52%);
-    --ifm-color-gray-500: hsl(232, 22%, 40%);
-    --ifm-color-gray-600: hsl(235, 16%, 28%);
-    --ifm-color-gray-700: hsl(235, 16%, 13%);
-    --ifm-color-gray-800: hsl(235, 19%, 12%);
-    --ifm-color-gray-900: hsl(240, 22%, 8%);
-    --ifm-color-gray-1000: var(--ifm-color-black);
+    --ifm-color-gray-0-hsl: var(--ifm-color-white-hsl);
+    --ifm-color-gray-100-hsl: 235, 19%, 88%;
+    --ifm-color-gray-200-hsl: 232, 19%, 76%;
+    --ifm-color-gray-300-hsl: 234, 17%, 64%;
+    --ifm-color-gray-400-hsl: 231, 17%, 52%;
+    --ifm-color-gray-500-hsl: 232, 22%, 40%;
+    --ifm-color-gray-600-hsl: 235, 16%, 28%;
+    --ifm-color-gray-700-hsl: 235, 16%, 13%;
+    --ifm-color-gray-800-hsl: 235, 19%, 12%;
+    --ifm-color-gray-900-hsl: 240, 22%, 8%;
+    --ifm-color-gray-1000-hsl: var(--ifm-color-black-hsl);
+
+    --ifm-color-gray-0: hsl(var(--ifm-color-gray-0-hsl));
+    --ifm-color-gray-100: hsl(var(--ifm-color-gray-100-hsl));
+    --ifm-color-gray-200: hsl(var(--ifm-color-gray-200-hsl));
+    --ifm-color-gray-300: hsl(var(--ifm-color-gray-300-hsl));
+    --ifm-color-gray-400: hsl(var(--ifm-color-gray-400-hsl));
+    --ifm-color-gray-500: hsl(var(--ifm-color-gray-500-hsl));
+    --ifm-color-gray-600: hsl(var(--ifm-color-gray-600-hsl));
+    --ifm-color-gray-700: hsl(var(--ifm-color-gray-700-hsl));
+    --ifm-color-gray-800: hsl(var(--ifm-color-gray-800-hsl));
+    --ifm-color-gray-900: hsl(var(--ifm-color-gray-900-hsl));
+    --ifm-color-gray-1000: hsl(var(--ifm-color-gray-1000-hsl));
 
     /* TYPOGRAPHY */
     /* DO NOT EDIT: Font size custom variables are auto-generated. */
