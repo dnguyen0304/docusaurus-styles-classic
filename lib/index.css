@@ -77,9 +77,6 @@
     --ifm-color-gray-900: hsl(240, 22%, 8%);
     --ifm-color-gray-1000: var(--ifm-color-black);
 
-    /* BASE */
-    --ifm-background-color: var(--ifm-color-white);
-
     /* TYPOGRAPHY */
     --ifm-font-family-base: 'Work Sans', 'Helvetica', 'Arial', sans-serif;
     --ifm-font-weight-extrabold: 900;  /* extension not override */
@@ -158,6 +155,7 @@ html[data-theme='light'] {
     --toc-text-color: var(--ifm-color-emphasis-500);
 
     --ifm-color-content-secondary: var(--toc-text-color);
+    --ifm-background-color: var(--ifm-color-white);
     --ifm-heading-color: var(--ifm-color-emphasis-700);
 }
 
