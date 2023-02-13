@@ -136,8 +136,7 @@
 }
 
 nav.theme-doc-breadcrumbs {
-    /* TODO(dnguyen0304): Fix missing responsive design. */
-    margin-bottom: 2rem;
+    margin-bottom: var(--space-m);
 }
 
 main div[class*='docItemContainer'] {
