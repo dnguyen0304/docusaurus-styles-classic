@@ -1,5 +1,7 @@
 /* Base */
 html[data-theme='light'] {
+    --breadcrumbs-color: var(--ifm-color-emphasis-700);
+
     /* This is used primarily for the page navigation and table of contents. */
     --ifm-color-content-secondary: var(--ifm-color-emphasis-500);
     --ifm-background-color: var(--ifm-color-white);
@@ -14,6 +16,11 @@ html[data-theme='light'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .m
 /* Navigation, Page */
 html[data-theme='light'] .pagination-nav__link {
     --ifm-color-emphasis-300: var(--docupotamus-border-color-gray-light);
+}
+
+/* Breadcrumbs */
+html[data-theme='light'] .theme-doc-breadcrumbs .breadcrumbs__link {
+    --ifm-font-color-base: var(--breadcrumbs-color);
 }
 
 /* Markdown Text */
