@@ -1,3 +1,4 @@
+/* Warning: This is deprecated. */
 :root {
     --docupotamus-color-accent: var(--ifm-color-primary-lightest);
     --docupotamus-color-accent-alternative: hsl(166, 100%, 70%);  /* currently unused */
