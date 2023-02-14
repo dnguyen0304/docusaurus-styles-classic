@@ -6,7 +6,7 @@ html[data-theme='dark'] {
         - --navigation-page-color
         - --toc-color
     */
-    --topnav-and-heading-text-color: var(--ifm-color-emphasis-900);
+    --navigation-top-color: var(--ifm-color-emphasis-900);
     --navigation-side-color: var(--ifm-color-content-secondary);
     --navigation-side-category-color: var(--ifm-color-emphasis-1000);
     --heading-color: var(--ifm-color-emphasis-900);
@@ -15,8 +15,6 @@ html[data-theme='dark'] {
     --ifm-color-primary: var(--ifm-color-primary-lightest);
     --ifm-background-color: var(--ifm-color-emphasis-300);
     --ifm-heading-color: var(--heading-color);
-
-    --ifm-font-color-base: var(--topnav-and-heading-text-color);
 }
 
 /* Navigation, Side */

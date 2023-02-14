@@ -16,14 +16,6 @@ html[data-theme='light'] {
     --ifm-heading-color: var(--heading-color);
 }
 
-/* Navigation, Top */
-html[data-theme='light'] .navbar {
-    --ifm-navbar-link-color: var(--navigation-top-color);
-
-    /* This is for the toggle button. */
-    color: var(--ifm-navbar-link-color);
-}
-
 /* Navigation, Side */
 html[data-theme='light'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link {
     --ifm-menu-color: var(--navigation-side-color);

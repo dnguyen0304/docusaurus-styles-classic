@@ -8,6 +8,14 @@ main div[class*='docItemContainer'] .theme-doc-markdown {
     margin-top: var(--space-m);
 }
 
+/* Navigation, Top */
+.navbar {
+    --ifm-navbar-link-color: var(--navigation-top-color);
+
+    /* This is for the toggle button. */
+    color: var(--ifm-navbar-link-color);
+}
+
 /* Navigation, Side */
 .theme-doc-sidebar-menu .theme-doc-sidebar-item-category .menu__link--sublist,
 .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link,
