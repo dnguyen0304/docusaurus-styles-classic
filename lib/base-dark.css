@@ -9,6 +9,7 @@ html[data-theme='dark'] {
     --navigation-top-color: var(--ifm-color-emphasis-900);
     --navigation-side-color: var(--ifm-color-content-secondary);
     --navigation-side-category-color: var(--ifm-color-emphasis-1000);
+    --breadcrumbs-color: var(--ifm-color-emphasis-900);
     --heading-color: var(--ifm-color-emphasis-900);
     --markdown-color: var(--ifm-color-emphasis-800);
 

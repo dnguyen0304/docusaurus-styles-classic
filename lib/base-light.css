@@ -27,11 +27,6 @@ html[data-theme='light'] .pagination-nav__link {
     --ifm-color-emphasis-300: var(--docupotamus-border-color-gray-light);
 }
 
-/* Breadcrumbs */
-html[data-theme='light'] .theme-doc-breadcrumbs .breadcrumbs__link {
-    --ifm-font-color-base: var(--breadcrumbs-color);
-}
-
 /* Markdown */
 html[data-theme='light'] .theme-doc-markdown :not(
     a,
