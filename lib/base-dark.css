@@ -1,12 +1,14 @@
 /* Base */
 html[data-theme='dark'] {
+    /* This is used primarily for the page navigation and table of contents. */
+    --ifm-color-content-secondary: var(--ifm-color-emphasis-800);
+
     --topnav-and-heading-text-color: var(--ifm-color-emphasis-900);
+    --navigation-side-color: var(--ifm-color-content-secondary);
     --navigation-side-category-color: var(--ifm-color-emphasis-1000);
     --markdown-color: var(--ifm-color-emphasis-800);
 
     --ifm-color-primary: var(--ifm-color-primary-lightest);
-    /* This is used primarily for the page navigation and table of contents. */
-    --ifm-color-content-secondary: var(--ifm-color-emphasis-800);
     --ifm-background-color: var(--ifm-color-emphasis-300);
     --ifm-font-color-base: var(--topnav-and-heading-text-color);
     --ifm-heading-color: var(--topnav-and-heading-text-color);
@@ -22,7 +24,7 @@ html[data-theme='dark'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-category
 }
 
 html[data-theme='dark'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link {
-    --ifm-menu-color: var(--ifm-color-content-secondary);
+    --ifm-menu-color: var(--navigation-side-color);
 }
 
 /* Markdown Text */
