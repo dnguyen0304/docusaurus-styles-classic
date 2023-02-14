@@ -24,6 +24,7 @@ main div[class*='docItemContainer'] .theme-doc-markdown {
     color: var(--ifm-color-primary);
 }
 
+/* Table of Contents */
 .table-of-contents li {
     /* In this scope, this is used for margin. */
     --ifm-toc-padding-vertical: 0;
