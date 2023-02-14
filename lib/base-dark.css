@@ -9,6 +9,7 @@ html[data-theme='dark'] {
     --ifm-background-color: var(--ifm-color-emphasis-300);
     --ifm-background-surface-color: var(--topnav-background-color);
     --ifm-font-color-base: var(--topnav-and-heading-text-color);
+    --ifm-heading-color: var(--topnav-and-heading-text-color);
 }
 
 /* Navigation, Side */
