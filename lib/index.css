@@ -1,4 +1,5 @@
 @import './base-dark.css';
+@import './base-light.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap');
@@ -210,59 +211,4 @@ html[data-theme='dark'] {
     /* Setting an alpha value between 0.15 and 0.2 is usually good. */
     --ifm-hover-overlay: hsla(var(--ifm-color-primary-darkest-hsl), 0.18);
     --ifm-toc-border-color: transparent;
-}
-
-/* LIGHT MODE */
-
-/* Base */
-html[data-theme='light'] {
-    --toc-text-color: var(--ifm-color-emphasis-500);
-
-    --ifm-color-content-secondary: var(--toc-text-color);
-    --ifm-background-color: var(--ifm-color-white);
-    --ifm-heading-color: var(--ifm-color-emphasis-700);
-}
-
-html[data-theme='light'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link {
-    --ifm-menu-color: var(--ifm-color-emphasis-500);
-}
-
-/* Navigation, Bottom */
-html[data-theme='light'] .pagination-nav__link {
-    --ifm-color-emphasis-300: var(--docupotamus-border-color-gray-light);
-}
-
-/* Markdown Body Text */
-html[data-theme='light'] .theme-doc-markdown :not(
-    a,
-    code *,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    kbd,
-    pre,
-    strong
-) {
-    --ifm-font-color-base: var(--ifm-color-emphasis-600);
-
-    color: var(--ifm-font-color-base);
-    font-weight: var(--ifm-font-weight-semibold);
-}
-
-/* Code */
-/* Undo styles that were "leaked" via inheritance even though the direct
-   elements were excluded above. */
-html[data-theme='light'] .theme-doc-markdown code {
-    font-weight: revert;
-}
-
-/* Code Highlight */
-/* Warning: This class name has no cohesion with the docusaurus-theme-classic
-   configuration setting. */
-html[data-theme='light'] .theme-code-block-highlighted-line {
-    /* TODO(dnguyen0304): Use a color from the --ifm-color-gray palette. */
-    --docusaurus-highlighted-code-line-bg: rgba(170, 170, 170, 0.1);
 }
