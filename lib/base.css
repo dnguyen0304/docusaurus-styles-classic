@@ -1,8 +1,10 @@
+/* Main */
 main div[class*='docItemContainer'] {
     padding: 0 calc((100% - 75ch) / 2);
 }
 
-.theme-doc-markdown {
+/* Main, Markdown */
+main div[class*='docItemContainer'] .theme-doc-markdown {
     margin-top: var(--space-m);
 }
 
