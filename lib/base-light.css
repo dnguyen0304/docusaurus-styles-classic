@@ -12,7 +12,7 @@ html[data-theme='light'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .m
     --ifm-menu-color: var(--ifm-color-emphasis-500);
 }
 
-/* Navigation, Bottom */
+/* Navigation, Page */
 html[data-theme='light'] .pagination-nav__link {
     --ifm-color-emphasis-300: var(--docupotamus-border-color-gray-light);
 }
