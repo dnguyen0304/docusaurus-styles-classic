@@ -1,8 +1,11 @@
 /* Base */
 html[data-theme='dark'] {
-    /* This is used primarily for the page navigation and table of contents. */
     --ifm-color-content-secondary: var(--ifm-color-emphasis-800);
 
+    /* Use --ifm-color-content-secondary for:
+        - --navigation-page-color
+        - --toc-color
+    */
     --topnav-and-heading-text-color: var(--ifm-color-emphasis-900);
     --navigation-side-color: var(--ifm-color-content-secondary);
     --navigation-side-category-color: var(--ifm-color-emphasis-1000);
