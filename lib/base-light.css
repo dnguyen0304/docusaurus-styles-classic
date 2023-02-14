@@ -1,12 +1,17 @@
 /* Base */
 html[data-theme='light'] {
+    --ifm-color-content-secondary: var(--ifm-color-emphasis-500);
+
+    /* Use --ifm-color-content-secondary for:
+        - --navigation-page-color
+        - --toc-color
+    */
     --navigation-top-color: var(--ifm-color-emphasis-700);
+    --navigation-side-color: var(--ifm-color-content-secondary);
     --breadcrumbs-color: var(--ifm-color-emphasis-700);
     --heading-color: var(--ifm-color-emphasis-700);
     --markdown-color: var(--ifm-color-emphasis-600);
 
-    /* This is used primarily for the page navigation and table of contents. */
-    --ifm-color-content-secondary: var(--ifm-color-emphasis-500);
     --ifm-background-color: var(--ifm-color-white);
     --ifm-heading-color: var(--heading-color);
 }
@@ -21,7 +26,7 @@ html[data-theme='light'] .navbar {
 
 /* Navigation, Side */
 html[data-theme='light'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link {
-    --ifm-menu-color: var(--ifm-color-emphasis-500);
+    --ifm-menu-color: var(--navigation-side-color);
 }
 
 /* Navigation, Page */
