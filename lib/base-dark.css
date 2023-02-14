@@ -51,7 +51,7 @@ html[data-theme='dark'] .theme-doc-markdown :not(
     pre,
     strong
 ) {
-    color: var(--ifm-color-content);
+    color: var(--markdown-color);
 }
 
 /* Code Highlight */

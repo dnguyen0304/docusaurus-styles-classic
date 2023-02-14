@@ -60,6 +60,9 @@ main[class*='docMainContainer'] div[class*='docItemContainer'] .theme-doc-markdo
 
 html[data-theme='light'],
 html[data-theme='dark'] {
+    --ifm-color-content: var(--ifm-heading-color);
+    --ifm-color-content-inverse: var(--ifm-background-color);
+
     /* This is used primarily for the top navigation. */
     --ifm-background-surface-color: var(--ifm-background-color);
 
