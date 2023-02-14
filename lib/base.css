@@ -1,0 +1,53 @@
+main div[class*='docItemContainer'] {
+    padding: 0 calc((100% - 75ch) / 2);
+}
+
+.theme-doc-markdown {
+    margin-top: var(--space-m);
+}
+
+/* Navigation, Side */
+.theme-doc-sidebar-menu .theme-doc-sidebar-item-category .menu__link--sublist,
+.theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link,
+.table-of-contents__link {
+    --link-padding-vertical: var(--space-2xs);
+    --link-padding-horizontal: calc(2 * var(--link-padding-vertical));
+
+    border-radius: var(--ifm-global-radius);
+    padding: var(--link-padding-vertical) var(--link-padding-horizontal);
+}
+
+.theme-doc-sidebar-menu .theme-doc-sidebar-item-category .menu__link--sublist:hover,
+.theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link:hover {
+    color: var(--ifm-color-primary);
+}
+
+.table-of-contents li {
+    /* In this scope, this is used for margin. */
+    --ifm-toc-padding-vertical: 0;
+
+    /* Use the same value as the sidebar menu links. */
+    margin-top: var(--list-item-gap-2xs);
+}
+
+.table-of-contents__link {
+    --link-padding-vertical: var(--space-3xs);
+}
+
+.table-of-contents__link:hover {
+    background-color: var(--ifm-hover-overlay);
+}
+
+footer.footer {
+    margin-top: var(--space-l-xl);
+}
+
+/* TODO(dnguyen0304): Fix colors for blockquotes. */
+/* TODO(dnguyen0304): Fix colors for tables. */
+
+html[data-theme='light'],
+html[data-theme='dark'] {
+    /* Setting an alpha value between 0.15 and 0.2 is usually good. */
+    --ifm-hover-overlay: hsla(var(--ifm-color-primary-darkest-hsl), 0.18);
+    --ifm-toc-border-color: transparent;
+}
