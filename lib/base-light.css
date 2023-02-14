@@ -2,12 +2,13 @@
 html[data-theme='light'] {
     --navigation-top-color: var(--ifm-color-emphasis-700);
     --breadcrumbs-color: var(--ifm-color-emphasis-700);
+    --heading-color: var(--ifm-color-emphasis-700);
     --markdown-color: var(--ifm-color-emphasis-600);
 
     /* This is used primarily for the page navigation and table of contents. */
     --ifm-color-content-secondary: var(--ifm-color-emphasis-500);
     --ifm-background-color: var(--ifm-color-white);
-    --ifm-heading-color: var(--ifm-color-emphasis-700);
+    --ifm-heading-color: var(--heading-color);
 }
 
 /* Navigation, Top */
