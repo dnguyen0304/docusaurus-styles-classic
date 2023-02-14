@@ -40,6 +40,7 @@ main div[class*='docItemContainer'] .theme-doc-markdown {
     background-color: var(--ifm-hover-overlay);
 }
 
+/* Footer */
 footer.footer {
     margin-top: var(--space-l-xl);
 }
