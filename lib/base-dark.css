@@ -1,6 +1,7 @@
 /* Base */
 html[data-theme='dark'] {
     --topnav-and-heading-text-color: var(--ifm-color-emphasis-900);
+    --markdown-color: var(--ifm-color-emphasis-800);
 
     --ifm-color-primary: var(--ifm-color-primary-lightest);
     /* This is used primarily for the page navigation and table of contents. */
@@ -37,9 +38,7 @@ html[data-theme='dark'] .theme-doc-markdown :not(
     pre,
     strong
 ) {
-    --ifm-font-color-base: var(--ifm-color-emphasis-800);
-
-    color: var(--ifm-font-color-base);
+    color: var(--markdown-color);
 }
 
 /* Code Highlight */
