@@ -1,0 +1,61 @@
+/* Base */
+/* TODO(dnguyen0304: Consider a lighter palette in dark mode for better
+   readability. */
+html[data-theme='dark'] {
+    --toc-text-color: var(--ifm-color-emphasis-800);
+    --topnav-and-heading-text-color: var(--ifm-color-emphasis-900);
+    --topnav-background-color: var(--ifm-background-color);
+
+    --ifm-color-primary: var(--ifm-color-primary-lightest);
+    --ifm-color-content-secondary: var(--toc-text-color);
+    --ifm-background-color: var(--ifm-color-emphasis-300);
+    --ifm-background-surface-color: var(--topnav-background-color);
+    --ifm-font-color-base: var(--topnav-and-heading-text-color);
+}
+
+/* Navigation, Side */
+html[data-theme='dark'] .theme-doc-sidebar-menu {
+    font-weight: var(--ifm-font-weight-normal);
+}
+
+html[data-theme='dark'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-category .menu__link--sublist {
+    --ifm-menu-color: var(--ifm-color-emphasis-1000);
+}
+
+html[data-theme='dark'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link {
+    --ifm-menu-color: var(--ifm-color-content-secondary);
+}
+
+/* Markdown Body Text */
+html[data-theme='dark'] .theme-doc-markdown :not(
+    a,
+    code *,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    kbd,
+    pre,
+    strong
+) {
+    --ifm-font-color-base: var(--ifm-color-emphasis-800);
+
+    color: var(--ifm-font-color-base);
+}
+
+/* Code Highlight */
+/* Warning: This class name has no cohesion with the docusaurus-theme-classic
+   configuration setting. */
+html[data-theme='dark'] .theme-code-block-highlighted-line {
+    /* TODO(dnguyen0304): Use a color from the --ifm-color-gray palette. */
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+html[data-theme='dark'] .footer--dark {
+    /* TODO(dnguyen0304): Investigate setting a convention between color and
+       color-emphasis. */
+    --ifm-footer-background-color: var(--ifm-color-emphasis-200);
+}
