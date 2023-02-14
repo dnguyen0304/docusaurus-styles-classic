@@ -1,8 +1,7 @@
 /* Base */
 html[data-theme='light'] {
-    --toc-text-color: var(--ifm-color-emphasis-500);
-
-    --ifm-color-content-secondary: var(--toc-text-color);
+    /* This is used primarily for the page navigation and table of contents. */
+    --ifm-color-content-secondary: var(--ifm-color-emphasis-500);
     --ifm-background-color: var(--ifm-color-white);
     --ifm-heading-color: var(--ifm-color-emphasis-700);
 }
