@@ -17,7 +17,7 @@ html[data-theme='light'] .pagination-nav__link {
     --ifm-color-emphasis-300: var(--docupotamus-border-color-gray-light);
 }
 
-/* Markdown Body Text */
+/* Markdown Text */
 html[data-theme='light'] .theme-doc-markdown :not(
     a,
     code *,

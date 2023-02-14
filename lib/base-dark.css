@@ -24,7 +24,7 @@ html[data-theme='dark'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .me
     --ifm-menu-color: var(--ifm-color-content-secondary);
 }
 
-/* Markdown Body Text */
+/* Markdown Text */
 html[data-theme='dark'] .theme-doc-markdown :not(
     a,
     code *,
