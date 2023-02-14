@@ -1,5 +1,4 @@
 :root {
-    /* DOCUPOTAMUS CLASSIC */
     --docupotamus-color-accent: var(--ifm-color-primary-lightest);
     --docupotamus-color-accent-alternative: hsl(166, 100%, 70%);  /* currently unused */
     --docupotamus-color-gray: var(--ifm-color-gray-700);
