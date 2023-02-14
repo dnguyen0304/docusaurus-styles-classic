@@ -2,6 +2,7 @@
 html[data-theme='light'] {
     --navigation-top-color: var(--ifm-color-emphasis-700);
     --breadcrumbs-color: var(--ifm-color-emphasis-700);
+    --markdown-color: var(--ifm-color-emphasis-600);
 
     /* This is used primarily for the page navigation and table of contents. */
     --ifm-color-content-secondary: var(--ifm-color-emphasis-500);
@@ -32,7 +33,7 @@ html[data-theme='light'] .theme-doc-breadcrumbs .breadcrumbs__link {
     --ifm-font-color-base: var(--breadcrumbs-color);
 }
 
-/* Markdown Text */
+/* Markdown */
 html[data-theme='light'] .theme-doc-markdown :not(
     a,
     code *,
@@ -46,9 +47,7 @@ html[data-theme='light'] .theme-doc-markdown :not(
     pre,
     strong
 ) {
-    --ifm-font-color-base: var(--ifm-color-emphasis-600);
-
-    color: var(--ifm-font-color-base);
+    color: var(--markdown-color);
     font-weight: var(--ifm-font-weight-semibold);
 }
 
