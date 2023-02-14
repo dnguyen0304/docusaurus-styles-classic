@@ -2,12 +2,10 @@
 html[data-theme='dark'] {
     --toc-text-color: var(--ifm-color-emphasis-800);
     --topnav-and-heading-text-color: var(--ifm-color-emphasis-900);
-    --topnav-background-color: var(--ifm-background-color);
 
     --ifm-color-primary: var(--ifm-color-primary-lightest);
     --ifm-color-content-secondary: var(--toc-text-color);
     --ifm-background-color: var(--ifm-color-emphasis-300);
-    --ifm-background-surface-color: var(--topnav-background-color);
     --ifm-font-color-base: var(--topnav-and-heading-text-color);
     --ifm-heading-color: var(--topnav-and-heading-text-color);
 }

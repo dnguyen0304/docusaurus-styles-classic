@@ -48,6 +48,9 @@ footer.footer {
 
 html[data-theme='light'],
 html[data-theme='dark'] {
+    /* This is used primarily for the top navigation. */
+    --ifm-background-surface-color: var(--ifm-background-color);
+
     /* Setting an alpha value between 0.15 and 0.2 is usually good. */
     --ifm-hover-overlay: hsla(var(--ifm-color-primary-darkest-hsl), 0.18);
     --ifm-toc-border-color: transparent;
