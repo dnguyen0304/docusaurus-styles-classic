@@ -106,15 +106,26 @@
     --step-4: clamp(2.33rem, calc(1.22rem + 5.57vw), 10.13rem);
     --step-5: clamp(2.80rem, calc(1.03rem + 8.85vw), 15.19rem);
 
+    /* Warning: This is deprecated. */
     --font-size--2: var(--step--3);
     --font-size--1: var(--step--2);
-    --font-size-0: var(--step--1); /* This is closest to 1rem. */
+    --font-size-0: var(--step--1);
     --font-size-1: var(--step-0);
     --font-size-2: var(--step-1);
     --font-size-3: var(--step-2);
     --font-size-4: var(--step-3);
     --font-size-5: var(--step-4);
     --font-size-6: var(--step-5);
+
+    --d9s-font-size--2: var(--step--3);
+    --d9s-font-size--1: var(--step--2);
+    --d9s-font-size-0: var(--step--1); /* This is closest to 1rem. */
+    --d9s-font-size-1: var(--step-0);
+    --d9s-font-size-2: var(--step-1);
+    --d9s-font-size-3: var(--step-2);
+    --d9s-font-size-4: var(--step-3);
+    --d9s-font-size-5: var(--step-4);
+    --d9s-font-size-6: var(--step-5);
 
     --ifm-font-family-base: 'Work Sans', 'Helvetica', 'Arial', sans-serif;
     --ifm-font-weight-extrabold: 900;  /* extension not override */
