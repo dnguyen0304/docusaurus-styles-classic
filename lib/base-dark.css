@@ -1,6 +1,7 @@
 /* Base */
 html[data-theme='dark'] {
     --topnav-and-heading-text-color: var(--ifm-color-emphasis-900);
+    --navigation-side-category-color: var(--ifm-color-emphasis-1000);
     --markdown-color: var(--ifm-color-emphasis-800);
 
     --ifm-color-primary: var(--ifm-color-primary-lightest);
@@ -17,7 +18,7 @@ html[data-theme='dark'] .theme-doc-sidebar-menu {
 }
 
 html[data-theme='dark'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-category .menu__link--sublist {
-    --ifm-menu-color: var(--ifm-color-emphasis-1000);
+    --ifm-menu-color: var(--navigation-side-category-color);
 }
 
 html[data-theme='dark'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link {
