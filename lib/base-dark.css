@@ -1,6 +1,4 @@
 /* Base */
-/* TODO(dnguyen0304: Consider a lighter palette in dark mode for better
-   readability. */
 html[data-theme='dark'] {
     --toc-text-color: var(--ifm-color-emphasis-800);
     --topnav-and-heading-text-color: var(--ifm-color-emphasis-900);
