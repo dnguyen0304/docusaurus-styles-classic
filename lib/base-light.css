@@ -1,11 +1,20 @@
 /* Base */
 html[data-theme='light'] {
+    --navigation-top-color: var(--ifm-color-emphasis-700);
     --breadcrumbs-color: var(--ifm-color-emphasis-700);
 
     /* This is used primarily for the page navigation and table of contents. */
     --ifm-color-content-secondary: var(--ifm-color-emphasis-500);
     --ifm-background-color: var(--ifm-color-white);
     --ifm-heading-color: var(--ifm-color-emphasis-700);
+}
+
+/* Navigation, Top */
+html[data-theme='light'] .navbar {
+    --ifm-navbar-link-color: var(--navigation-top-color);
+
+    /* This is for the toggle button. */
+    color: var(--ifm-navbar-link-color);
 }
 
 /* Navigation, Side */
