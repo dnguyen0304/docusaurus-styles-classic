@@ -23,7 +23,7 @@ html[data-theme='light'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .m
 
 /* Navigation, Page */
 html[data-theme='light'] .pagination-nav__link {
-    /* This is for the border-color. */
+    --docupotamus-border-color-gray-light: var(--ifm-color-emphasis-100);
     --ifm-color-emphasis-300: var(--docupotamus-border-color-gray-light);
 }
 

@@ -31,6 +31,12 @@ html[data-theme='dark'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .me
     --ifm-menu-color: var(--navigation-side-color);
 }
 
+/* Navigation, Page */
+html[data-theme='dark'] .pagination-nav__link {
+    --docupotamus-border-color-gray-light: var(--ifm-color-emphasis-400);
+    --ifm-color-emphasis-300: var(--docupotamus-border-color-gray-light);
+}
+
 /* Markdown Text */
 html[data-theme='dark'] .theme-doc-markdown :not(
     a,
