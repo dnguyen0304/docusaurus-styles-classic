@@ -31,6 +31,7 @@ html[data-theme='light'] .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .m
 
 /* Navigation, Page */
 html[data-theme='light'] .pagination-nav__link {
+    /* This is for the border-color. */
     --ifm-color-emphasis-300: var(--docupotamus-border-color-gray-light);
 }
 
