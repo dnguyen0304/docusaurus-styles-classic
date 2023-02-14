@@ -5,7 +5,7 @@
 
 /* Main */
 main[class*='docMainContainer'] {
-    margin-bottom: var(--space-l-xl);
+    margin-bottom: var(--d9s-space-l-xl);
 }
 
 main[class*='docMainContainer'] div[class*='docItemContainer'] {
@@ -14,7 +14,7 @@ main[class*='docMainContainer'] div[class*='docItemContainer'] {
 
 /* Main, Markdown */
 main[class*='docMainContainer'] div[class*='docItemContainer'] .theme-doc-markdown {
-    margin-top: var(--space-m);
+    margin-top: var(--d9s-space-m);
 }
 
 /* Navigation, Top */
@@ -29,7 +29,7 @@ main[class*='docMainContainer'] div[class*='docItemContainer'] .theme-doc-markdo
 .theme-doc-sidebar-menu .theme-doc-sidebar-item-category .menu__link--sublist,
 .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link,
 .table-of-contents__link {
-    --link-padding-vertical: var(--space-2xs);
+    --link-padding-vertical: var(--d9s-space-2xs);
     --link-padding-horizontal: calc(2 * var(--link-padding-vertical));
 
     border-radius: var(--ifm-global-radius);
@@ -51,7 +51,7 @@ main[class*='docMainContainer'] div[class*='docItemContainer'] .theme-doc-markdo
 }
 
 .table-of-contents__link {
-    --link-padding-vertical: var(--space-3xs);
+    --link-padding-vertical: var(--d9s-space-3xs);
 }
 
 .table-of-contents__link:hover {
