@@ -26,7 +26,7 @@
 }
 
 :root {
-    /* COLORS */
+    /* Color */
     /* See: https://coolors.co/30c3a6-4ac1a8-57c0a9-63bfaa-6ccfb8-7defd4-85ffe2 */
     --ifm-color-primary-lightest-hsl: 166, 100%, 76%;
     --ifm-color-primary-lighter-hsl: 166, 78%, 71%;
@@ -93,7 +93,7 @@
     --ifm-color-gray-900: hsl(var(--ifm-color-gray-900-hsl));
     --ifm-color-gray-1000: hsl(var(--ifm-color-gray-1000-hsl));
 
-    /* TYPOGRAPHY */
+    /* Typography */
     /* DO NOT EDIT: Font size custom variables are auto-generated. */
     /* See: https://utopia.fyi/type/calculator?c=320,18,1.2,2560,32,1.5,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
     --step--3: clamp(0.59rem, calc(0.66rem + -0.04vw), 0.65rem);
@@ -121,7 +121,7 @@
     --ifm-heading-font-family: 'Nexa', 'Helvetica', 'Arial', sans-serif;
     --ifm-heading-font-weight: var(--ifm-font-weight-extrabold);
 
-    /* SPACING */
+    /* Spacing */
     /* DO NOT EDIT: Spacing custom variables are auto-generated. */
     /* See: https://utopia.fyi/space/calculator?c=320,18,1.2,1240,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,&g=s,l,xl,12 */
     --space-3xs: clamp(0.31rem, calc(0.31rem + 0.00vw), 0.31rem);
