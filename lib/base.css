@@ -45,9 +45,11 @@ main[class*='docMainContainer'] div[class*='docItemContainer'] .theme-doc-markdo
 .table-of-contents li {
     /* In this scope, this is used for margin. */
     --ifm-toc-padding-vertical: 0;
+}
 
+.table-of-contents li:not(:first-child) {
     /* Use the same value as the sidebar menu links. */
-    margin-top: var(--list-item-gap-2xs);
+    margin-top: var(--d9s-list-item-gap-2xs);
 }
 
 .table-of-contents__link {
