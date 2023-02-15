@@ -75,7 +75,8 @@ html[data-theme='dark'] {
         0.1s
         var(--ifm-transition-timing-default);
 
-    font: var(--d9s-font-size-0) / var(--ifm-line-height-base)
+    font:
+        var(--d9s-font-size-0) / var(--ifm-line-height-base)
         var(--ifm-font-family-base);
 }
 
