@@ -95,16 +95,16 @@
 
     /* Typography */
     /* DO NOT EDIT: Font size custom variables are auto-generated. */
-    /* See: https://utopia.fyi/type/calculator/?c=320,12,1.2,2560,28,1.5,5,3,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
-    --step--3: clamp(0.43rem, calc(0.42rem + 0.06vw), 0.52rem);
-    --step--2: clamp(0.52rem, calc(0.48rem + 0.18vw), 0.78rem);
-    --step--1: clamp(0.63rem, calc(0.55rem + 0.39vw), 1.17rem);
-    --step-0: clamp(0.75rem, calc(0.61rem + 0.71vw), 1.75rem);
-    --step-1: clamp(0.90rem, calc(0.65rem + 1.23vw), 2.63rem);
-    --step-2: clamp(1.08rem, calc(0.67rem + 2.04vw), 3.94rem);
-    --step-3: clamp(1.30rem, calc(0.64rem + 3.29vw), 5.91rem);
-    --step-4: clamp(1.56rem, calc(0.51rem + 5.22vw), 8.86rem);
-    --step-5: clamp(1.87rem, calc(0.23rem + 8.16vw), 13.29rem);
+    /* See: https://utopia.fyi/type/calculator?c=320,14,1.2,2560,28,1.5,5,3,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+    --step--3: clamp(0.51rem, calc(0.50rem + 0.01vw), 0.52rem);
+    --step--2: clamp(0.61rem, calc(0.58rem + 0.12vw), 0.78rem);
+    --step--1: clamp(0.73rem, calc(0.67rem + 0.31vw), 1.17rem);
+    --step-0: clamp(0.88rem, calc(0.75rem + 0.63vw), 1.75rem);
+    --step-1: clamp(1.05rem, calc(0.83rem + 1.13vw), 2.63rem);
+    --step-2: clamp(1.26rem, calc(0.88rem + 1.91vw), 3.94rem);
+    --step-3: clamp(1.51rem, calc(0.88rem + 3.14vw), 5.91rem);
+    --step-4: clamp(1.81rem, calc(0.81rem + 5.03vw), 8.86rem);
+    --step-5: clamp(2.18rem, calc(0.59rem + 7.94vw), 13.29rem);
 
     /* Warning: This is deprecated. */
     --font-size--2: var(--step--3);
