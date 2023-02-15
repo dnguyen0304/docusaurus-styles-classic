@@ -54,6 +54,8 @@ main[class*='docMainContainer'] div[class*='docItemContainer'] .theme-doc-markdo
 
 .table-of-contents__link {
     --link-padding-vertical: var(--d9s-space-3xs);
+
+    transition: var(--ifm-hover-overlay-transition);
 }
 
 .table-of-contents__link:hover {

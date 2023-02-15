@@ -174,4 +174,9 @@
     --d9s-space-2xl-3xl: clamp(4.50rem, calc(3.46rem + 5.22vw), 7.50rem);
 
     --d9s-list-item-gap-2xs: 0.25rem;
+
+    /* Transition */
+    --ifm-hover-overlay-transition:
+        background var(--ifm-transition-fast) var(--ifm-transition-timing-default),
+        color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
 }
