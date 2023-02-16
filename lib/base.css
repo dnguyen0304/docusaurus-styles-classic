@@ -74,11 +74,6 @@ html[data-theme='dark'] {
     --ifm-hover-overlay: hsla(var(--ifm-color-primary-darkest-hsl), 0.18);
     --ifm-toc-border-color: transparent;
 
-    --d9s-color-content-inverse-hover-transition:
-        background-color
-        0.1s
-        var(--ifm-transition-timing-default);
-
     font:
         var(--d9s-font-size-0) / var(--ifm-line-height-base)
         var(--ifm-font-family-base);
