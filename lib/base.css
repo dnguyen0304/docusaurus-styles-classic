@@ -64,6 +64,8 @@ main[class*='docMainContainer'] div[class*='docItemContainer'] .theme-doc-markdo
 
 html[data-theme='light'],
 html[data-theme='dark'] {
+    --ifm-color-content-inverse-hsl: var(--ifm-background-color-hsl);
+
     --ifm-color-content: var(--ifm-heading-color);
     --ifm-color-content-inverse: var(--ifm-background-color);
 

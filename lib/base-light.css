@@ -12,6 +12,8 @@ html[data-theme='light'] {
     --heading-color: var(--ifm-color-emphasis-700);
     --markdown-color: var(--ifm-color-emphasis-600);
 
+    --ifm-background-color-hsl: var(--ifm-color-white-hsl);
+
     --ifm-background-color: var(--ifm-color-white);
     --ifm-heading-color: var(--heading-color);
 

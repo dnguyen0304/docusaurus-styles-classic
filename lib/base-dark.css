@@ -13,6 +13,8 @@ html[data-theme='dark'] {
     --heading-color: var(--ifm-color-emphasis-900);
     --markdown-color: var(--ifm-color-emphasis-800);
 
+    --ifm-background-color-hsl: var(--ifm-color-gray-700-hsl);
+
     --ifm-color-primary: var(--ifm-color-primary-lightest);
     --ifm-background-color: var(--ifm-color-emphasis-300);
     --ifm-heading-color: var(--heading-color);
