@@ -9,7 +9,7 @@ main[class*='docMainContainer'] {
 }
 
 main[class*='docMainContainer'] div[class*='docItemContainer'] {
-    padding: 0 calc((100% - 75ch) / 2);
+    padding: 0 calc((100% - var(--doc8-content-width)) / 2);
 }
 
 /* Main, Markdown */

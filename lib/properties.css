@@ -181,4 +181,7 @@
     --ifm-hover-overlay-transition:
         background var(--ifm-transition-fast) var(--ifm-transition-timing-default),
         color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+
+    /* Components */
+    --doc8-content-width: 70ch;
 }
