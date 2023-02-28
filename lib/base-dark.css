@@ -19,7 +19,7 @@ html[data-theme='dark'] {
     --ifm-background-color: var(--ifm-color-emphasis-300);
     --ifm-heading-color: var(--heading-color);
 
-    --d9s-color-content-inverse-hover: hsla(var(--ifm-color-white-hsl), 0.05);
+    --doc8-color-content-inverse-hover: hsla(var(--ifm-color-white-hsl), 0.05);
 }
 
 /* Navigation, Side */

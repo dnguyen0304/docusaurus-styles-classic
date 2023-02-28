@@ -5,7 +5,7 @@
 
 /* Main */
 main[class*='docMainContainer'] {
-    margin-bottom: var(--d9s-space-l-xl);
+    margin-bottom: var(--doc8-space-l-xl);
 }
 
 main[class*='docMainContainer'] div[class*='docItemContainer'] {
@@ -14,7 +14,7 @@ main[class*='docMainContainer'] div[class*='docItemContainer'] {
 
 /* Main, Markdown */
 main[class*='docMainContainer'] div[class*='docItemContainer'] .theme-doc-markdown {
-    margin-top: var(--d9s-space-m);
+    margin-top: var(--doc8-space-m);
 }
 
 /* Navigation, Top */
@@ -29,7 +29,7 @@ main[class*='docMainContainer'] div[class*='docItemContainer'] .theme-doc-markdo
 .theme-doc-sidebar-menu .theme-doc-sidebar-item-category .menu__link--sublist,
 .theme-doc-sidebar-menu .theme-doc-sidebar-item-link .menu__link,
 .table-of-contents__link {
-    --link-padding-vertical: var(--d9s-space-2xs);
+    --link-padding-vertical: var(--doc8-space-2xs);
     --link-padding-horizontal: calc(2 * var(--link-padding-vertical));
 
     border-radius: var(--ifm-global-radius);
@@ -49,11 +49,11 @@ main[class*='docMainContainer'] div[class*='docItemContainer'] .theme-doc-markdo
 
 .table-of-contents li:not(:first-child) {
     /* Use the same value as the sidebar menu links. */
-    margin-top: var(--d9s-list-item-gap-2xs);
+    margin-top: var(--doc8-list-item-gap-2xs);
 }
 
 .table-of-contents__link {
-    --link-padding-vertical: var(--d9s-space-3xs);
+    --link-padding-vertical: var(--doc8-space-3xs);
 
     transition: var(--ifm-hover-overlay-transition);
 }
@@ -77,7 +77,7 @@ html[data-theme='dark'] {
     --ifm-toc-border-color: transparent;
 
     font:
-        var(--d9s-font-size-0) / var(--ifm-line-height-base)
+        var(--doc8-font-size-0) / var(--ifm-line-height-base)
         var(--ifm-font-family-base);
 }
 

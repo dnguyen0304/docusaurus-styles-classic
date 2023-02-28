@@ -17,7 +17,7 @@ html[data-theme='light'] {
     --ifm-background-color: var(--ifm-color-white);
     --ifm-heading-color: var(--heading-color);
 
-    --d9s-color-content-inverse-hover: hsla(var(--ifm-color-black-hsl), 0.05);
+    --doc8-color-content-inverse-hover: hsla(var(--ifm-color-black-hsl), 0.05);
 }
 
 /* Navigation, Side */
