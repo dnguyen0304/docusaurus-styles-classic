@@ -9,7 +9,12 @@ main[class*='docMainContainer'] {
 }
 
 main[class*='docMainContainer'] div[class*='docItemContainer'] {
-    padding: 0 calc((100% - var(--doc8-content-width)) / 2);
+    --padding-total: calc(100% - var(--doc8-content-width));
+    --padding-percentage-left: .4;
+    --padding-percentage-right: calc(1 - var(--padding-percentage-left));
+
+    padding-left: calc(var(--padding-total) * var(--padding-percentage-left));
+    padding-right: calc(var(--padding-total) * var(--padding-percentage-right));
 }
 
 /* Main, Markdown */
